@@ -1,6 +1,6 @@
-let n=15
-const arr=["grape"+n,"nho"+n];
-console.log("i have "+n+" grape")
+// let n=15
+// const arr=["grape"+n,"nho"+n];
+// console.log("i have "+n+" grape")
 
 //bai2
 // let i=1
