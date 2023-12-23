@@ -1,38 +1,41 @@
-const arr=[["grape"+15],["nho"+15]];
+const arr=[
+    [15+"grape"],
+[15+"nho"],
+[15+"tao"]]
 console.log(arr[0])
 
-//bai2
-// let i=1
-// while(i<6){
+// bai2
+// let i=0
+// while(i<arr.length){
+   
+//     document.write("i have "+arr[i]+"<br>")
 //     i++;
-//     document.write("i have "+n+" grape<br>")
 // }
 
 
-// let j=1
+// let j=0
 // do{
+    
+//     document.write("i have "+arr[j]+"<br>");
 //     j++;
-//     document.write("i have "+n+" grape<br>")
-// } while(j<6)
+// } while(i<arr.length)
 
 
-// for (let m=1;m<6;m++){
-//     document.write("i have "+n+" grape<br>")
+// for (let m=0;m<arr.length;m++){
+//     document.write("i have "+arr[m]+"<br>")
 // }
 
 //bai3
 
-var mydog={
-    "name":"Ngao",
-    "leg":4,
-    "friends":["everything!"]
+// var mydog={
+//     "name":"Ngao",
+//     "leg":4,
+//     "friends":["everything!"]
+// };
 
-
-};
-
-mydog.name="Husky"
-mydog.color="brown"
-delete mydog.friends
-console.log(mydog.name)
-console.log(mydog.leg)
-console.log(mydog.color)
+// mydog.name="Husky"
+// mydog.color="brown"
+// delete mydog.friends
+// console.log(mydog.name)
+// console.log(mydog.leg)
+// console.log(mydog.color)
