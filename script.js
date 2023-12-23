@@ -1,6 +1,6 @@
-// let n=15
-// const arr=["grape"+n,"nho"+n];
-// console.log("i have "+n+" grape")
+let n=15
+const arr=["grape"+n,"nho"+n];
+console.log(arr[0])
 
 //bai2
 // let i=1
@@ -34,4 +34,6 @@ var mydog={
 mydog.name="Husky"
 mydog.color="brown"
 delete mydog.friends
-console.log(mydog)
+console.log(mydog.name)
+console.log(mydog.leg)
+console.log(mydog.color)
