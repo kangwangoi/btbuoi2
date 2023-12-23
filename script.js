@@ -1,8 +1,8 @@
-const arr=[
-    [15+"grape"],
-[15+"nho"],
-[15+"tao"]]
-console.log(arr[0])
+// const arr=[
+//     [15+"grape"],
+// [15+"nho"],
+// [15+"tao"]]
+// console.log(arr[0])
 
 // bai2
 // let i=0
@@ -26,16 +26,18 @@ console.log(arr[0])
 // }
 
 //bai3
-
-// var mydog={
-//     "name":"Ngao",
-//     "leg":4,
-//     "friends":["everything!"]
-// };
-
-// mydog.name="Husky"
-// mydog.color="brown"
-// delete mydog.friends
+let ar = [
+ mydog={
+    "name":"Ngao",
+    "leg":4,
+    "friends":["everything!"]
+}]
+for (let i=0;i<ar.length;i++){
+document.write(ar[i].name+ar[i].leg)
+}
+mydog.name="Husky"
+mydog.color="brown"
+delete mydog.friends
 // console.log(mydog.name)
 // console.log(mydog.leg)
 // console.log(mydog.color)
