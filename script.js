@@ -1,5 +1,4 @@
-let n=15
-const arr=["grape"+n,"nho"+n];
+const arr=[["grape"+15],["nho"+15]];
 console.log(arr[0])
 
 //bai2
